@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<h2>Namn och Kön</h2>
+
+		<form action="Namn lista">
+			<label for="Förnamn">Förnamn</label><br>
+			<input type="text" id="Förnamn" name="Förnamn" value=""><br>
+			<label for="Efternamn">Efternamn</label><br>
+			<input type="text" id="Efternamn" name="Efternamn" value=""><br>
+		</form> 
+		<br>
+		<form>
+			<input type="radio" id="Man" name="Kön" value="Man">
+			<label for="Man">Man</label><br>
+			<input type="radio" id="Kvinna" name="Kön" value="Kvinna">
+			<label for="Kvinna">Kvinna</label><br>
+			<input type="radio" id="Annat" name="Kön" value="Annat">
+			<label for="Annat">Annat</label><br><br>
+			<input type="Submit" value="Bekräfta">
+		</form>
+	</body>
+</html>
