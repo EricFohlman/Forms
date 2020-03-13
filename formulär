@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
+	<head>
+		<title> Fourms1 </title>
+		<meta charset="utf-8">
+	</head>
 	<body>
-
-		<h2>Namn och Kön</h2>
-
-		<form action="Namn lista">
+		<h1>Formulär</h1>
+		<form>
 			<label for="Förnamn">Förnamn</label><br>
 			<input type="text" id="Förnamn" name="Förnamn" value=""><br>
 			<label for="Efternamn">Efternamn</label><br>
 			<input type="text" id="Efternamn" name="Efternamn" value=""><br>
 		</form> 
 		<br>
-		<form>
+		<form action="ThankYou.html">
 			<input type="radio" id="Man" name="Kön" value="Man">
 			<label for="Man">Man</label><br>
 			<input type="radio" id="Kvinna" name="Kön" value="Kvinna">
